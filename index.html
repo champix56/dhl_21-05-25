@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
     <!-- Latest compiled and minified CSS & JS -->
     <link rel="stylesheet" media="screen" href="/vendor/bootstrap/bootstrap.css">
     <script src="/vendor/jquery/jquery.js"></script>
     <script src="/vendor/bootstrap/bootstrap.js"></script>
-    
-    <link rel="stylesheet" href="css/styles.css">
+
 </head>
+
 <body>
-    DEMAT breizh
+
+    <nav class="navbar navbar-inverse">
+        <a class="navbar-brand" href="#">Tchat.js</a>
+        <ul class="nav navbar-nav">
+            <li class="active">
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Link</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="tchat-content">
+        <div id="tchat-first-row">
+            <div id="left-col" class="border content-list-view">
+                <h2>messages</h2>
+                <div class="content-list-view-message">
+                        <img class="message-image" src="https://picsum.photos/id/425/200/300" alt="Image">
+                        <div class="message-datetime">2021-05-25<br/>12:49:00</div>
+                        <div class="message-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos cupiditate dolor animi ad vel deleniti hic porro voluptate dignissimos dolore nesciunt at reprehenderit eaque dolores, iste molestias vero dolorum facilis?</div>
+                </div>
+            </div>
+            <div id="right-col"  class="border content-list-view">
+                <h2>utilisateurs</h2>
+                <div class="content-list-view-user">
+                    <img src="https://picsum.photos/id/231/200/300" alt="" class="user-image">
+                    <div class="user-name">Nom user</div>
+                </div>
+            </div>
+        </div>
+        <div id="tchat-second-row"  class="border content-list-view">
+                Editeur de messages
+        </div>
+    </div>
+
 </body>
+
 </html>
