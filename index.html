@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -24,6 +24,13 @@
             text-shadow: 10px 10px 5px black;
         }
     </style>
+    <script>
+        function OnDOMLoaded() {
+            var baliseLoad = document.getElementById('js-loaded');
+            baliseLoad.style.backgroundColor = "skyblue";
+            baliseLoad.innerHTML = "Cool ca marche !!!!";
+        }
+    </script>
 </head>
 
 <body>
