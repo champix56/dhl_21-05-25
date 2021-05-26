@@ -52,3 +52,12 @@ h2{
 .content-list-view-user:hover{
     background-color: lightblue;
 }
+#tchat-second-row form{
+    display: flex;
+}
+#message-value{
+    flex-grow: 1;
+}
+#tchat-second-row > form > *{
+    margin-left :10px;
+}
