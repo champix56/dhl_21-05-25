@@ -24,6 +24,15 @@
             text-shadow: 10px 10px 5px black;
         }
     </style>
+    <script>
+        var whoami = { id: 0, nom: "Alex", img: "https://blog.orsys.fr/les-carnets/wp-content/uploads/2016/05/DESORBAIX-e1463732091296@2x.png" };
+    </script>
+    <!-- <script src="/js/data.js"></script> -->
+    <script src="/js/config.js"></script>
+    <script src="/js/crud.js"></script>
+    <script src="js/ressourcesTemplates.js"></script>
+    <script src="/js/auth.js"></script>
+
 </head>
 
 <body>
@@ -39,37 +48,8 @@
             </li>
         </ul>
     </nav>
-    <div id="tchat-content">
-        <div id="tchat-first-row">
-            <div id="left-col" class="border content-list-view">
-                <h2>messages</h2>
-                <div class="content-list-view-message">
-                    <img class="message-image" src="https://picsum.photos/id/425/200/300" alt="Image">
-                    <div class="message-datetime">2021-05-25<br />12:49:00</div>
-                    <div class="message-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos cupiditate
-                        dolor animi ad vel deleniti hic porro voluptate dignissimos dolore nesciunt at reprehenderit
-                        eaque dolores, iste molestias vero dolorum facilis?</div>
-                </div>
-            </div>
-            <div id="right-col" class="border content-list-view">
-                <h2>utilisateurs</h2>
-                <div class="content-list-view-user" >
-                    <img src="https://picsum.photos/id/231/200/300" alt="" class="user-image">
-                    <div class="user-name">Boby</div>
-                </div>
-            </div>
-        </div>
-        <div id="tchat-second-row" class="border content-list-view">
-            <form action="#" name="message-sender">
-                <input type="text" name="message-value" id="message-value" placeholder="saisissez votre message ici">
-                <select name="message-to" id="message-to">
-                    <option value="jason">Jason</option>
-                    <option value="boby">boby</option>
-                </select>
-                <input type="color" name="message-color" id="message-color">
-                <input type="submit" class="btn btn-success" value="envoyer">
-            </form>
-        </div>
+    <div id="main">
+
     </div>
     <script src="/js/index.js"></script>
 </body>
